@@ -67,17 +67,35 @@
 
 /*------ colore contenitori in-3 ----- */
 
+.divisione {
+  height: calc(100% / 3);
+}
 
+.primo {
+  background-color: yellow;
+}
+
+.secondo {
+  background-color: darkblue;
+}
+
+.terzo {
+  background-color: lightsalmon;
+}
 
 /*------------ FOOTER -----------------*/
 
 .footer {
   display: inline-block;
-  heigt: 50px;
+  position: relative;
+  height: 50px;
   width: 100%;
   background-color: yellow;
 }
 
 .footer h2 {
-  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
