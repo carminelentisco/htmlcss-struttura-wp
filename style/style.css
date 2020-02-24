@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+#page {
+  height: 100vh;
+  margin: 0% 10%;
+  background-color: black;
+
+}
+.intestazione {
+  position: relative;
+  background-color: red;
+  height: 200px;
+  width: 100%;
+}
+
+.intestazione h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
