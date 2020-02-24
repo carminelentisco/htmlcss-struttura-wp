@@ -5,10 +5,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #000;
+}
+
 #page {
   width: 80%;
   margin: 0 auto;
-  background-color: black;
 }
 
 /*------------ INTESTAZIONE ------------*/
@@ -18,6 +21,7 @@
   background-color: red;
   height: 350px;
   width: 100%;
+  border: 10px solid white;
 }
 
 .intestazione h1 {
@@ -43,10 +47,35 @@
   top: 50%;
   transform: translate(-50%,-50%);
   color: white;
+  text-transform: uppercase;
 
 }
 
 /*-------------- CORPO -----------------*/
+
+#cont-1 {
+  float: left;
+  background-color: chocolate;
+  height: 500px;
+  width: 15%;
+  position: relative;
+}
+
+#cont-2 {
+  float: left;
+  background-color: #0042db;
+  height: 400px;
+  width: 70%;
+  position: relative;
+}
+
+#cont-3 {
+
+  float: left;
+  height: 1000px;
+  width: 15%;
+  background-color: #ffff00;
+}
 
 .main_contenitori::after {
   content: '';
@@ -54,16 +83,14 @@
   clear: both;
 }
 
-.contenitore {
-  float: left;
-  width: calc(100% / 3);
-  height: 500px;
-  background-color: chocolate;
+.txt {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
 }
 
-.contenitore:nth-child(2) {
-  background-color: deeppink;
-}
 
 /*------ colore contenitori in-3 ----- */
 
@@ -72,15 +99,18 @@
 }
 
 .primo {
-  background-color: yellow;
+  background-color: grey;
+  position: relative;
 }
 
 .secondo {
   background-color: darkblue;
+  position: relative;
 }
 
 .terzo {
   background-color: lightsalmon;
+  position: relative;
 }
 
 /*------------ FOOTER -----------------*/
