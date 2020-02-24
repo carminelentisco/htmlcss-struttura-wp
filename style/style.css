@@ -3,18 +3,19 @@
   box-sizing: border-box;
 }
 
-
-
 #page {
   height: 100vh;
-  margin: 0% 10%;
+  margin: 0% 20%;
   background-color: black;
 
 }
+
+/*------------ INTESTAZIONE ------------ */
+
 .intestazione {
   position: relative;
   background-color: red;
-  height: 200px;
+  height: 350px;
   width: 100%;
 }
 
@@ -25,3 +26,23 @@
   transform: translate(-50%, -50%);
   color: white;
 }
+
+/* -------------- MENU' ---------------- */
+
+.menù {
+  position:relative;
+  height: 50px;
+  width: 100%;
+  background-color: green;
+}
+
+.menù h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+
+}
+
+/*-------------- CORPO ----------------- */
