@@ -1,16 +1,17 @@
+/*------------- GENERALE ---------------*/
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
 #page {
-  height: 100vh;
-  margin: 0% 20%;
+  width: 80%;
+  margin: 0 auto;
   background-color: black;
-
 }
 
-/*------------ INTESTAZIONE ------------ */
+/*------------ INTESTAZIONE ------------*/
 
 .intestazione {
   position: relative;
@@ -27,7 +28,7 @@
   color: white;
 }
 
-/* -------------- MENU' ---------------- */
+/* -------------- MENU' ----------------*/
 
 .menù {
   position:relative;
@@ -45,4 +46,38 @@
 
 }
 
-/*-------------- CORPO ----------------- */
+/*-------------- CORPO -----------------*/
+
+.main_contenitori::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.contenitore {
+  float: left;
+  width: calc(100% / 3);
+  height: 500px;
+  background-color: chocolate;
+}
+
+.contenitore:nth-child(2) {
+  background-color: deeppink;
+}
+
+/*------ colore contenitori in-3 ----- */
+
+
+
+/*------------ FOOTER -----------------*/
+
+.footer {
+  display: inline-block;
+  heigt: 50px;
+  width: 100%;
+  background-color: yellow;
+}
+
+.footer h2 {
+  text-align: center;
+}
