@@ -14,6 +14,10 @@ body {
   margin: 0 auto;
 }
 
+.font-montserrat {
+  font-family: 'Montserrat';
+}
+
 /*------------ INTESTAZIONE ------------*/
 
 .main-header {
@@ -29,20 +33,28 @@ body {
   border: 10px solid white;
 }
 
-.intestazione h1 {
+.intestazione img {
+  height: 60%;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+
 }
 
+.intestazione h1 {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+}
 /* -------------- MENU' ----------------*/
 
 .menù {
   position:relative;
   height: 50px;
-  background-color: green;
+  background-color: grey;
 }
 
 .menù h2 {
