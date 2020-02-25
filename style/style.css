@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #000;
+  background-image: url(../immagini/background-pagina.png);
 }
 
 #page {
@@ -16,11 +16,16 @@ body {
 
 /*------------ INTESTAZIONE ------------*/
 
+.main-header {
+  margin-bottom: 10px;
+}
+
 .intestazione {
+  height: 400px;
   position: relative;
-  background-color: red;
-  height: 350px;
-  width: 100%;
+  background-image: url(../immagini/background-banner.jpeg);
+  background-size: cover;
+  background-position: center center;
   border: 10px solid white;
 }
 
@@ -37,7 +42,6 @@ body {
 .menù {
   position:relative;
   height: 50px;
-  width: 100%;
   background-color: green;
 }
 
@@ -72,7 +76,6 @@ body {
 #cont-3 {
 
   float: left;
-  height: 1000px;
   width: 15%;
   background-color: #ffff00;
 }
@@ -94,23 +97,22 @@ body {
 
 /*------ colore contenitori in-3 ----- */
 
-.divisione {
-  height: calc(100% / 3);
-}
-
 .primo {
   background-color: grey;
   position: relative;
+  height: 100px;
 }
 
 .secondo {
   background-color: darkblue;
   position: relative;
+  height: 100px;
 }
 
 .terzo {
   background-color: lightsalmon;
   position: relative;
+  height: 100px;
 }
 
 /*------------ FOOTER -----------------*/
