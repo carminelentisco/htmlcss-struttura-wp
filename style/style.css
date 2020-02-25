@@ -185,17 +185,28 @@ body {
 
 /*------------ FOOTER -----------------*/
 
-.footer {
+footer {
   display: inline-block;
   position: relative;
-  height: 50px;
   width: 100%;
-  background-color: yellow;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 3%;
 }
 
-.footer h2 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50);
+.footer__txt {
+  text-align: center;
+  color: grey;
+}
+
+.divisione {
+  display: inline-block;
+  width: calc(100% / 3);
+  float: left;
+}
+
+.icon {
+  padding: 11%;
+  font-size: 300%;
+  margin-left: 40%;
 }
