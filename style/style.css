@@ -18,6 +18,15 @@ body {
   font-family: 'Montserrat';
 }
 
+.font_roboto_title {
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.font_roboto_testo {
+  font-family: 'Roboto';
+  font-weight: lighter;
+}
 /*------------ INTESTAZIONE ------------*/
 
 .main-header {
@@ -63,6 +72,7 @@ body {
 #menù {
   padding-top: 1%;
 }
+
 #menù li {
   display: inline;
   margin-right: 1%;
@@ -82,10 +92,9 @@ body {
 
 #cont-1 {
   float: left;
-  background-color: chocolate;
-  height: 500px;
   width: 15%;
   position: relative;
+  padding-right: 1%;
 }
 
 #cont-2 {
@@ -103,7 +112,7 @@ body {
   background-color: #ffff00;
 }
 
-.main_contenitori::after {
+.clearfix::after {
   content: '';
   display: table;
   clear: both;
@@ -117,7 +126,31 @@ body {
   font-size: 18px;
 }
 
+/*-------------CONTENUTO CONTENITORE 1----------*/
 
+#icon {
+  vertical-align: top;
+  color: orange;
+}
+
+.cont-1-int {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  padding: 5%;
+}
+
+.header__titolo {
+  display: inline-block;
+  padding-left: 3%;
+  padding-bottom: 3%;
+}
+
+.cont__1__main__text {
+  color: #00b300;
+  padding-bottom: 3%;
+}
 /*------ colore contenitori in-3 ----- */
 
 .primo {
