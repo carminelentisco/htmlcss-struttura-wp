@@ -199,14 +199,23 @@ footer {
   color: grey;
 }
 
-.divisione {
-  display: inline-block;
-  width: calc(100% / 3);
-  float: left;
+.list {
+  padding: 0;
 }
 
-.icon {
-  padding: 11%;
+.list li {
+  list-style: none;
+  float: left;
+  width: calc(100% / 3);
+}
+
+.list li a {
+  text-decoration: none;
+  color: grey;
+  padding-left: 50%;
   font-size: 300%;
-  margin-left: 40%;
+}
+
+.list li a:hover {
+  color: black;
 }
