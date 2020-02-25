@@ -99,10 +99,9 @@ body {
 
 #cont-2 {
   float: left;
-  background-color: #0042db;
-  height: 400px;
   width: 70%;
   position: relative;
+  padding-right: 1%;
 }
 
 #cont-3 {
@@ -151,7 +150,23 @@ body {
   color: #00b300;
   padding-bottom: 3%;
 }
-/*------ colore contenitori in-3 ----- */
+
+/* -----------CONTENUTO CONTENITORE 2-----------*/
+
+.background__contenitore__2 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.header__contenitore__2 {
+  position: relative;
+  padding-bottom: 5%;
+}
+
+/*------ COLORE CONTENITORI 3 ----- */
 
 .primo {
   background-color: grey;
@@ -170,6 +185,22 @@ body {
   position: relative;
   height: 100px;
 }
+/*------------CONTENUTO CONTENITORE 3-----------*/
+
+.background__contenitore__3 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.header__contenitore__3 {
+  position: relative;
+  padding-bottom: 5%;
+}
+
+
 
 /*------------ FOOTER -----------------*/
 
