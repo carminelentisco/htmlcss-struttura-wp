@@ -51,20 +51,31 @@ body {
 }
 /* -------------- MENU' ----------------*/
 
-.menù {
-  position:relative;
+#menù-background {
   height: 50px;
+  width: 100%;
   background-color: grey;
+  text-align: center;
+
+
 }
 
-.menù h2 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  color: white;
-  text-transform: uppercase;
+#menù {
+  padding-top: 1%;
+}
+#menù li {
+  display: inline;
+  margin-right: 1%;
+  padding: 1%;
+}
 
+#menù li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#menù li a {
+  color: white;
+  text-decoration: none;
 }
 
 /*-------------- CORPO -----------------*/
